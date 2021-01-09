@@ -30,7 +30,7 @@ alert(18 - nameuser); */
 console.log(incr);
 console.log(decr); */
 
-const numberOfFilms = +prompt("How many movies have you seen?", "1");
+/* const numberOfFilms = +prompt("How many movies have you seen?", "1");
 
 const personalMovieDB = {
     count: numberOfFilms,
@@ -48,4 +48,19 @@ const a = prompt("Which the movie have been the last?", "Nemo"),
 personalMovieDB.movies[a] = b;
 personalMovieDB.movies[c] = d;
 
-console.log(personalMovieDB);
+console.log(personalMovieDB); */
+
+if (4 == 9) {
+    console.log('Ok!');
+} else {
+    console.log('Error');
+}
+
+const num = 50;
+if (num<49) {
+    console.log('Error 201');
+} else if (num>100) {
+    console.log('Too much!');
+} else {
+    console.log('ok!');
+}
