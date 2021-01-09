@@ -64,3 +64,6 @@ if (num<49) {
 } else {
     console.log('ok!');
 }
+
+let x = 5;
+(x == 1) ? console.log('x = 1') : console.log('x != 1');
