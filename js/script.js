@@ -22,10 +22,30 @@ console.log(`https://someurl/${category}/5`);
 const nameuser = +prompt('How old are you?', '16');
 alert(18 - nameuser); */
 
-let incr = 10,
+/* let incr = 10,
     decr = 10;
 ++incr;
 --decr;
 
 console.log(incr);
-console.log(decr);
+console.log(decr); */
+
+const numberOfFilms = +prompt("How many movies have you seen?", "1");
+
+const personalMovieDB = {
+    count: numberOfFilms,
+    movies: {},
+    actors: {},
+    geners: [],
+    privat: false
+};
+
+const a = prompt("Which the movie have been the last?", "Nemo"),
+    b = prompt("How many stars would you give it?", "5"),
+    c = prompt("Which the movie have been the last?", "Nemo"),
+    d = prompt("How many stars would you give it?", "5");
+
+personalMovieDB.movies[a] = b;
+personalMovieDB.movies[c] = d;
+
+console.log(personalMovieDB);
