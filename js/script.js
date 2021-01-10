@@ -56,7 +56,7 @@ if (4 == 9) {
     console.log('Error');
 }
 
-const num = 50;
+const num02 = 50;
 if (num<49) {
     console.log('Error 201');
 } else if (num>100) {
@@ -67,3 +67,21 @@ if (num<49) {
 
 let x = 5;
 (x == 1) ? console.log('x = 1') : console.log('x != 1');
+
+const num = 50;
+switch (num) {
+    case 49: 
+        console.log('num = 49');
+        break;
+    case 100:
+        console.log('num = 100');
+        break;
+    case 50:
+        console.log('num = 50');
+        break;
+    default:
+        console.log('Default');
+        break;
+}
+
+const funame = prompt('Who is ')
